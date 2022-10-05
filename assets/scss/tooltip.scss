@@ -1,0 +1,28 @@
+@import './reset.scss';
+.top-site {
+    height: 100px;
+    width: 100%;
+    #tooltip {
+        position: fixed;
+        right: 5%;
+        top: 5%;
+        &:hover {
+            cursor: pointer;
+        }
+    }
+    svg {
+        height: 48px;
+        width: 48px;
+    }
+    .tooltip {
+        align-items: center;
+        background-color: #fffff80;
+        border: solid 3px rgba(255, 255, 255, 0.5);
+        box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.75);
+        display: none;
+        height: 150px;
+        padding: 10px;
+        text-align: center;
+        width: 200px;
+    }
+}
